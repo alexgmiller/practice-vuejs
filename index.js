@@ -5,6 +5,7 @@ var App = {
     return {
       message: "Hello from JavaScript!",
       name: "Amanda",
+      showInfo: false,
     };
   },
   methods: {

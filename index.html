@@ -12,6 +12,11 @@
       <h1>{{ message }}</h1>
       <p>{{ name }}</p>
       <button @click="changeMessage()">Click me!</button>
+      <input type="text" @model="name">
+      <div>
+        <button @click="showInfo =!showInfo">Show Info</button>
+       <p v-if="showInfo">Extra Info</p>
+      </div>
     </div>
   </body>
 </html>
